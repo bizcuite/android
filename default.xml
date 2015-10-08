@@ -30,8 +30,7 @@
  <!-- <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="cm-12.1" />-->
  <!-- <project name="bizcuite/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-12.1" />-->
   <!--<project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp" />-->
-  
-  <remove-project name="CyanogenMod/android_frameworks_av" />
+
   <project name="bizcuite/android_frameworks_av" path="frameworks/av" remote="github"  revision="cm-12.1" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="bizcuite/android_frameworks_native" path="frameworks/native" remote="github"  revision="cm-12.1" />
