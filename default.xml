@@ -24,15 +24,6 @@
 
 
  <!-- MY PROJECT -->
-  <!--<project name="bizcuite/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-12.1" />-->
-  <!--<project name="bizcuite/android_device_samsung_n7100" path="device/samsung/n7100"  revision="cm-12.1" />-->
-  <!--<project name="bizcuite/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common"  revision="cm-12.1" />-->
- <!-- <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="cm-12.1" />-->
- <!-- <project name="bizcuite/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-12.1" />-->
-  <!--<project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github" revision="aosp" />-->
-
-  <project name="bizcuite/android_frameworks_av" path="frameworks/av" remote="github"  revision="cm-12.1" />
-  <project name="bizcuite/android_frameworks_native" path="frameworks/native" remote="github"  revision="cm-12.1" />
   <project name="bizcuite/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github"  revision="cm-12.1" />
@@ -368,7 +359,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <!--<project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />-->
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -378,7 +369,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
- <!-- <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />-->
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
