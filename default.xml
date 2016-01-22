@@ -30,7 +30,7 @@
   <project name="bizcuite/android_device_samsung_n7100" path="device/samsung/n7100" remote="github"  revision="cm-13" />
   <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-13" />
   <project name="bizcuite/android_hardware_libhardware" path="hardware/libhardware" remote="github"  revision="cm-13" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   
 <!-- END MY PROJECT -->
