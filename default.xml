@@ -32,7 +32,7 @@
   <project name="bizcuite/android_hardware_libhardware" path="hardware/libhardware" remote="github"  revision="cm-13" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
 <!-- END MY PROJECT -->
 
 
