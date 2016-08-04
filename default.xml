@@ -33,6 +33,8 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/pdfium" name="CyanogenMod/android_external_pdfium" groups="pdk" />
+<!-- test revert back framework/base to prevent BT crash -->
+  <project path="frameworks/base" name="bizcuite/android_frameworks_base-1" remote="github" revision="34040d04c9" />
 <!-- END MY PROJECT -->
 
 
@@ -159,7 +161,7 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+<!--  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
