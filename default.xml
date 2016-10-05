@@ -24,13 +24,13 @@
 
   
   <!-- BIZCUITE PROJECT -->
-  <project name="bizcuite/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-14.0" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <!--<project name="bizcuite/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-14.0" />
   <project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github"  revision="cm-14.0" />
   <project name="bizcuite/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.0" />
   <project name="bizcuite/android_device_samsung_n7100" path="device/samsung/n7100" remote="github"  revision="cm-14.0" />
   <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.0" />
-  <project name="bizcuite/android_hardware_libhardware" path="hardware/libhardware" remote="github"  revision="cm-14.0" />
+  <project name="bizcuite/android_hardware_libhardware" path="hardware/libhardware" remote="github"  revision="cm-14.0" /> -->
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.0" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-14.0" />
 <!-- END BIZCUITE PROJECT -->
@@ -366,7 +366,7 @@
   <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" remote="aosp" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <!--<project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />-->
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
