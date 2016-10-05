@@ -9,16 +9,16 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/bizcuite/android.git -b cm-13
+    repo init -u git://github.com/bizcuite/android.git -b cm-14.0
     
     after a complete download, just use this commands to make build:
     $source build/envsetup.sh
-    $brunch n7100
+    $lunch cm-n7100-userdebug
     and be patient!!
 
 Then to sync up:
 
-    repo sync
+    repo sync -j4
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
