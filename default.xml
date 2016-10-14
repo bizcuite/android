@@ -28,7 +28,7 @@
   <project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github"  revision="cm-13" />
   <project name="bizcuite/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13" />
   <project name="bizcuite/android_device_samsung_n7100" path="device/samsung/n7100" remote="github"  revision="cm-13" />
-  <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.0" />
+  <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.0-zram" />
   <project name="bizcuite/android_hardware_libhardware" path="hardware/libhardware" remote="github"  revision="cm-13" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
