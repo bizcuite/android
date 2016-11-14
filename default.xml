@@ -30,7 +30,7 @@
   <project name="bizcuite/android_device_samsung_n7100" path="device/samsung/n7100" remote="github"  revision="cm-14.1" /> -->
   <project name="bizcuite/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1-zram" />
  <!-- <project name="bizcuite/android_hardware_libhardware" path="hardware/libhardware" remote="github"  revision="cm-14.1" /> -->
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-14.1" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" revision="cm-14.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" revision="cm-13.0" />
 <!-- END BIZCUITE PROJECT -->
