@@ -24,7 +24,7 @@
 
   
   <!-- BIZCUITE PROJECT -->
-  <!-- <project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github"  revision="cm-14.1" />-->
+  <project name="bizcuite/android_hardware_samsung" path="hardware/samsung" remote="github"  revision="cm-14.1" />
   <project name="bizcuite/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   <project name="bizcuite/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-14.1" />
   <project name="bizcuite/android_device_samsung_n7100" path="device/samsung/n7100" remote="github"  revision="cm-14.1" />
